@@ -135,9 +135,7 @@ img{
 }
 @media screen and (min-width: 40em){
     /* for tablet 640px */
-    h2{
-        background-color: red;
-    }
+
 
 .logo{
     position: relative;
