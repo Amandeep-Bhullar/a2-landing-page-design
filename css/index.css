@@ -1,0 +1,174 @@
+/* @import url('https://fonts.googleapis.com/css?family=Apple Chancery'); */
+:root{
+    --light: #ffffff;
+    --dark: #000000;
+    --loveclr: #F42213;
+    --toplightgrey: #efefef;
+    --semilight: #dfe1e5;
+    --grey: #afafaf;
+    --darkgrey: #333333;
+    --light-semilight: #C9F1FF;
+    --pink:#ee3f98;
+    --girlclr: #FF81D6;
+    --babyclr: #FFE3EB;
+    --royal: #3C48FF;
+    --queenclr:#60091d;
+    --kingclr:#11322c;
+    --princess:#180105;
+    --links: #3FCCFF;
+    --blueish-grey:#d0eef7;
+    --blue:#4767f5;
+    --light-grey: #e1e4e6;
+    --mustard-clr:#f7c45d;
+    --spacing: 1em;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../img/bg-stone-pic.jpeg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--dark);
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Apple Chancery";
+    
+}
+.logo{
+    position: relative;
+    z-index: 10;
+    font-size: 1.6em;
+    margin: 0.8em;
+}
+.logo h1{
+    font-size: 1.5em;
+    font-weight: 6em!important;
+    margin-top: -0.2em;
+}
+.ham-burger-box{
+    position: relative;
+    z-index: 10;
+    text-align: right;
+    margin: 1.6em;
+    margin-top: -4em;
+}
+.ham-burger{
+    padding: 0.4em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    background-color: var(--dark);
+    color: var(--mustard-clr);
+}
+.main-navbar{
+    display: none;
+
+}
+.pink-oval{
+    background-color:var(--pink);
+    min-height: 165%;
+    min-width: 100%;
+    position: absolute;
+    left:-50%;
+    top: -65%;
+    z-index: 1;
+    border-radius: 50%;
+    opacity: 80%;
+    
+}
+a {
+    color:var(--darkgrey) ;
+}
+img{
+    position: relative;
+    z-index: 10;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-cntnr{
+    text-align: center;
+    margin-top: 3em;
+}
+.black-holder img{
+   border: 2em solid rgba(0,0,0, 0.8);
+   /* border: var(--dark)solid 6em;
+   opacity: 80%; */
+   margin-bottom: -2em;
+
+} 
+.form-subscribe{
+    text-align: center;
+    padding: 0.5em;
+    background-color: var(--mustard-clr);
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 10;
+    margin-bottom: 4em;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 1em;
+}
+.email{
+    padding: 0.2em;
+    font-size: large;
+    min-width: 90%;
+    margin-top: 0.5em;
+}
+.blk-bcgnd{
+    background-color: var(--dark);
+    color: var(--light);
+    margin: 0.5em;
+    padding: 0.2em;
+}
+.margin{
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+@media screen and (min-width: 40em){
+    /* for tablet 640px */
+    h2{
+        background-color: red;
+    }
+
+.logo{
+    position: relative;
+    z-index: 10;
+    font-size: 1.6em;
+    margin: 0.8em;
+}
+.logo h1{
+    font-size: 1.8em;
+    font-weight: 4em!important;
+    margin-top: -0.3em;
+}
+}
+
+/* img{
+    position: relative;
+    z-index: 10;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-cntnr{
+    text-align: center;
+}
+.black-holder img{
+   border: 6em solid rgba(0,0,0, 0.8);
+   /* border: var(--dark)solid 6em;
+   opacity: 80%; 
+   margin-bottom: 1em;
+
+}  */
+@media screen and (min-width: 60em){
+    /* for big screen 880px */
+}
